@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Landingpage from './pages/Landingpage'
 
-import Marquepage from './pages/Marquepage'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,8 +34,8 @@ function App() {
       </p>
       </div>
       <Landingpage/>
-      <div className='h-screen width-full bg-slate-500'>We can add some other thing</div>
-      <Marquepage/>
+     
+     
     </>
   )
 }
